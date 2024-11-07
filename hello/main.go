@@ -14,7 +14,7 @@ func main() {
 
 	server.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello, World! This project is created to demonstrate. API : - /Create-Student -> POST request -> Use Postman or Curl to send student creation request. Make sure to send json with ID,Name,Age and Email",
+			"message": "Hello, World! This project is created to demonstrate API creation in Go with Gin. API : - /Create-Student -> POST request -> Use Postman or Curl to send student creation request. Make sure to send json with ID,Name,Age and Email",
 		})
 	})
 
